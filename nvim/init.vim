@@ -7,7 +7,7 @@ set scrolloff=10
 set foldmethod=syntax foldcolumn=auto
 set breakindent linebreak
 set colorcolumn=80
-set list
+set list listchars=tab:\ \ 
 set cursorline cursorcolumn
 set ignorecase smartcase
 set path+=**
