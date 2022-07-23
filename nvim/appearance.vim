@@ -12,8 +12,9 @@ highlight roln guibg=#dc322f guifg=bg
 highlight modru guifg=#b58900
 highlight roru guifg=#dc322f
 
-"---- Other Tweeks -------------------------------------------------------------
+"---- Statusline Settings ------------------------------------------------------
 
 set laststatus=1
-set statusline=\ %f\ %y\ %#modln#%m%#roln#%r%*
-set rulerformat=%y\ %#modru#%m%#roru#%r
+set statusline=\ %f\ %#modln#%m%#roln#%r%*
+set rulerformat=%#modru#%m%#roru#%r
+
