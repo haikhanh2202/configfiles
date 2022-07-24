@@ -2,7 +2,7 @@
 
 set number relativenumber
 set clipboard+=unnamedplus
-set softtabstop=4 shiftwidth=4
+set shiftwidth=4 expandtab
 set scrolloff=10
 set foldmethod=syntax foldcolumn=auto
 set breakindent linebreak
@@ -33,4 +33,5 @@ autocmd BufWritePre * %s/\s\+$//e
 "---- Custom Keymaps -----------------------------------------------------------
 
 let mapleader=' '
-nnoremap <silent> <leader>fb :call flipbg#Flipbg()<CR>
+nnoremap <silent> <leader>f :call flipbg#Flipbg()<CR>
+nnoremap <silent> <leader>n :nohlsearch<CR>
